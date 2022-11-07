@@ -1,1 +1,46 @@
+.navbar-brand {
+    padding-left: 10px;
+}
 
+img {
+    width: 250px;
+    height: auto;
+}
+
+body {
+    background: pink;
+    color: white;
+}
+
+/* to put all movies on one line and use horizontal scroll bar */
+.movie-app > .row {
+    overflow-x: auto;
+    flex-wrap: nowrap;
+}
+
+/* when the cursor hovers on an image, the cursor turns into a pointer and the image enlarges using transition and transform */
+.image-container {
+    position: relative;
+    transition: transform 0.3s;
+}
+
+.image-container:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.image-container:hover .overlay {
+    opacity: 1;
+}
+
+.overlay {
+    position: absolute;
+    background: hotpink;
+    width: 100%;
+    transition: 0.5s ease;
+    opacity: 0;
+    bottom: 0;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
