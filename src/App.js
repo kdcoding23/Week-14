@@ -57,8 +57,7 @@ const App = () => {
         <NavBar />
         <div className='container-fluid movie-app mt-5'>
           <div className='row'>
-            <MovieList movies = {movies} movieComponent = {Movie} starsComponent = {Stars} />
-            <></>
+            <MovieList movies = {movies} starsComponent = {Stars} />
           </div>
         </div>
       </div>

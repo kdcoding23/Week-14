@@ -1,15 +1,12 @@
-import React from "react";
+// import React from "react";
 
-export default function Movie() {
-    const MovieComponent = props.movieCompenent;
 
-    return (
-        <>
-            {props.movies.map((movie, index) => (
-            <div>
-
-            </div>
-        ))};
-        </>
-    );
-};
+// export default function Movies (movie, index) {
+//     return (
+//         <>
+//         <h3>{this.movie.title}</h3>
+//         <h4>{this.movie.year}</h4>
+//         <p>{this.movie.info}</p>
+//         </>
+//     );
+// };
