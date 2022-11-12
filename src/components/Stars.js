@@ -11,8 +11,8 @@ export default function Stars() {
     <ReactStars
     count={5}
     color2={'#ffd700'}
-    size={24}
+    size={20}
     onChange={ratingChanged}
     />
   );
-}
+} 

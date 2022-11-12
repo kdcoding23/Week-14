@@ -19,7 +19,8 @@ body {
     margin-left: 5px;
 }
 
-/* when the cursor hovers on an image, the cursor turns into a pointer and the image enlarges using transition and transform */
+/* when the cursor hovers on an image, the cursor turns into a pointer and the image enlarges using transition and transform. I also originally wanted the images to be right next to each other, but then I realized that that wasn't happening maybe because of the image-container width. But ultimately, I decided to keep it as is. */
+
 .image-container {
     position: relative;
     transition: transform 0.3s;
@@ -44,10 +45,15 @@ body {
     opacity: 0;
     bottom: 0;
     font-size: 10px;
-    padding: 10px;
+    padding: 2px;
     text-align: center;
 }
 
 .movie-info {
     padding: 20px;
 }
+
+/* .form-control {
+    width: 200px;
+} */
+
